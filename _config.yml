@@ -3,5 +3,5 @@ layout: default
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-title: "GenerSpeech: Towards Style Transfer for Generalizable Out-Of-Domain Text-to-Speech Synthesis"
+title: "Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion"
 
