@@ -37,7 +37,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/1.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/1.wav" type="audio/wav"></audio></td>
@@ -66,7 +66,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/2.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_2.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/2.wav" type="audio/wav"></audio></td>
@@ -95,7 +95,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/3.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/3.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_3.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/3.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/3.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/3.wav" type="audio/wav"></audio></td>
@@ -123,7 +123,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/4.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/4.wav" type="audio/wav"></audio></td>
@@ -151,7 +151,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/5.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/5.wav" type="audio/wav"></audio></td>
@@ -179,7 +179,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/6.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/6.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_6.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/6.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/6.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/6.wav" type="audio/wav"></audio></td>
@@ -207,7 +207,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/7.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/7.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_7.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/7.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/7.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/7.wav" type="audio/wav"></audio></td>
@@ -236,7 +236,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/8.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/8.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_8.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/8.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/8.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/8.wav" type="audio/wav"></audio></td>
@@ -263,7 +263,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/9.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/9.wav" type="audio/wav"></audio></td>
@@ -291,7 +291,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/10.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/10.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_10.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/10.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/10.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/10.wav" type="audio/wav"></audio></td>
