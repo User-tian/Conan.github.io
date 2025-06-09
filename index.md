@@ -16,10 +16,7 @@ During streaming inference, we first feed the entire reference speech into the m
 We use speech from VCTK as the target speaker, and speech from LibriTTS as the source content.
 
 ## Target Speaker p231
-Target Speech: <audio controls style="width: 100%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
-
-
-
+Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 
 <ruby>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</ruby>
@@ -40,7 +37,7 @@ Target Speech: <audio controls style="width: 100%; margin: 15px 0;"><source src=
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/1.wav" type="audio/wav"></audio></td> -->
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/1.wav" type="audio/wav"></audio></td>
@@ -67,7 +64,9 @@ Target Speech: <audio controls style="width: 100%; margin: 15px 0;"><source src=
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/2.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/2.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/2.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/2.wav" type="audio/wav"></audio></td>
@@ -82,29 +81,226 @@ Target Speech: <audio controls style="width: 100%; margin: 15px 0;"><source src=
 <table>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
-            <th style="text-align: center">Reference (voc)</th>
-			<th style="text-align: center">Mellotron</th>
-			<th style="text-align: center">FG-Transfromer</th>
-            <th style="text-align: center">Expressive FastSpeech 2</th>
-			<th style="text-align: center">Meta-StyleSpeech</th>
-			<th style="text-align: center">Styler</th>
-            <th style="text-align: center">GenerSpeech</th>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/GT/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/GT_voc/002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/mellotron/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/FGTransformerTTS/002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/FS2/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/StyleSpeech/002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/STYLER/002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/GenerSpeech/002.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/3.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/3.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/3.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
+
+<ruby>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/4.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/4.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/4.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Reference/Target Text: But if you hadn't done them.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/5.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/5.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Reference/Target Text: I know you.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/6.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/6.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/6.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Reference/Target Text: All this we have won by our labour.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/7.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/7.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/7.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Reference/Target Text:</ruby>
+<ruby>All this we have won by our labour.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/8.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/8.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/8.wav"  type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+<ruby>Reference/Target Text: But if you hadn't done them.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/9.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/9.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby> Reference/Target Text: I know you.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+			<th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+			<th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+			<th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/10.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/Source_Origin_10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/10.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/10.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
 
 ## Target Speaker p334
 
