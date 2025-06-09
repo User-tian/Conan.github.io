@@ -16,8 +16,7 @@ During streaming inference, we first feed the entire reference speech into the m
 We use speech from VCTK as the target speaker, and speech from LibriTTS as the source content.
 
 ## Target Speaker p231
-Target Speech: <audio controls style="width: 100%; margin: 15px 0;">
-  <source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
+Target Speech: <audio controls style="width: 100%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 
 
@@ -41,6 +40,7 @@ Target Speech: <audio controls style="width: 100%; margin: 15px 0;">
 		<tr>
 			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/1.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/1.wav" type="audio/wav"></audio></td>
@@ -67,8 +67,7 @@ Target Speech: <audio controls style="width: 100%; margin: 15px 0;">
 	</thead>
 	<tbody>
 		<tr>
-			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/1.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/1.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origin/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/2.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/2.wav" type="audio/wav"></audio></td>
