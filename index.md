@@ -16,46 +16,68 @@ During streaming inference, we first feed the entire reference speech into the m
 We use speech from VCTK as the target speaker, and speech from LibriTTS as the source content.
 
 ## Target Speaker p231
+Target Speech: <audio controls style="width: 100%; margin: 15px 0;">
+  <source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 
-## Target Speaker p334
-
-## Target Speaker p360
 
 
-# Parallel Style Transfer
 
- In parallel style transfer, the synthesizer is given an audio clip matching the text it's asked to synthesize (i.e. the reference and target text are the same).
-
-## VCTK dataset
 <ruby>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</ruby>
 <table>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
-            <th style="text-align: center">Reference (voc)</th>
-			<th style="text-align: center">Mellotron</th>
-			<th style="text-align: center">FG-Transfromer</th>
-            <th style="text-align: center">Expressive FastSpeech 2</th>
-			<th style="text-align: center">Meta-StyleSpeech</th>
-			<th style="text-align: center">Styler</th>
-            <th style="text-align: center">GenerSpeech</th>
+			<th style="text-align: center">Source</th>
+            <th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+            <th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+            <th style="text-align: center">PPGVC</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/GT/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/GT_voc/003.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/mellotron/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/FGTransformerTTS/003.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/FS2/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/StyleSpeech/003.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/STYLER/003.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ParallelTransfer/VCTK/GenerSpeech/003.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/1.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/1.wav" type="audio/wav"></audio></td>
+
 		</tr>
 	</tbody>
 </table>
 
+<ruby>Reference/Target Text: Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Source</th>
+            <th style="text-align: center">Conan</th>
+			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">StreamVC</th>
+            <th style="text-align: center">QuickVC</th>
+			<th style="text-align: center">DiffVC</th>
+			<th style="text-align: center">VQMIVC</th>
+            <th style="text-align: center">PPGVC</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/1.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/1.wav" type="audio/wav"></audio></td> -->
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/2.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/2.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/2.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/2.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/2.wav" type="audio/wav"></audio></td>
+
+		</tr>
+	</tbody>
+</table>
 
 <ruby>Reference/Target Text: When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.</ruby>
 <table>
@@ -84,6 +106,10 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
 		</tr>
 	</tbody>
 </table>
+
+## Target Speaker p334
+
+## Target Speaker p360
 
 
 ## ESD dataset
