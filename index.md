@@ -32,61 +32,61 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
     <tr>
       <!-- Target spans all three reference/result rows -->
       <td rowspan="3" style="border:2px solid #000; vertical-align:middle;">
-        <audio controls style="width:90%;">   <!-- 90 % looks nice on wide tables -->
+        <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/target.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/refs/ref1.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Conan result #1 -->
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/conan/conv1.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Other model result #1 -->
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/other/conv1.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
     <!-- pair #2 -->
     <tr>
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/refs/ref2.wav" type="audio/wav">
         </audio>
       </td>
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/conan/conv2.wav" type="audio/wav">
         </audio>
       </td>
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/other/conv2.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
     <!-- pair #3 -->
     <tr>
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/refs/ref3.wav" type="audio/wav">
         </audio>
       </td>
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/conan/conv3.wav" type="audio/wav">
         </audio>
       </td>
-      <td style="border:2px solid #000;">
-        <audio controls style="width:90%;">
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
           <source src="wavs/other/conv3.wav" type="audio/wav">
         </audio>
       </td>
