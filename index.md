@@ -18,8 +18,9 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
 ## VCTK Speakers
 <!-- ── begin copy-paste ───────────────────────────────────────────── -->
 <table style="
-        width:100%;                 /* use the whole page */
-        table-layout:fixed;         /* equal-width columns */
+        width:100vw;                           /* full viewport width  */
+        margin-left:calc(-50vw + 50%);         /* center outside column */
+        table-layout:fixed;
         border-collapse:collapse;
         text-align:center;
         font-family:sans-serif;">
