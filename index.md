@@ -20,10 +20,10 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
 <table>
   <thead>
     <tr>
-      <th style="border:2px solid #000;">Target</th>
-      <th style="border:2px solid #000;">Reference</th>
-      <th style="border:2px solid #000;">Conan&nbsp;Result</th>
-      <th style="border:2px solid #000;">Other&nbsp;Result</th>
+      <th style="text-align: center">Target</th>
+      <th style="text-align: center">Reference</th>
+      <th style="text-align: center">Conan&nbsp;Result</th>
+      <th style="text-align: center">Other&nbsp;Result</th>
     </tr>
   </thead>
 
@@ -31,7 +31,7 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
     <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
       <!-- Target spans all three reference/result rows -->
-      <td rowspan="3" style="border:2px solid #000; vertical-align:middle;">
+      <td rowspan="3" style="text-align: center; vertical-align:middle;">
         <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/target.wav" type="audio/wav">
         </audio>
