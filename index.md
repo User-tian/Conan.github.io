@@ -18,9 +18,8 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
 ## VCTK Speakers
 <!-- ── begin copy-paste ───────────────────────────────────────────── -->
 <table style="
-        width:100vw;                           /* full viewport width  */
-        margin-left:calc(-50vw + 50%);         /* center outside column */
-        table-layout:fixed;
+        width:100%;                 /* use the whole page */
+        table-layout:fixed;         /* equal-width columns */
         border-collapse:collapse;
         text-align:center;
         font-family:sans-serif;">
@@ -37,7 +36,7 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
     <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
       <!-- Target spans all three reference/result rows -->
-      <td rowspan="3" style="border:2px solid #000; vertical-align:middle;">
+      <td rowspan="3" style="border:10px solid #000; vertical-align:middle;">
         <audio controls style="width:90%;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/target.wav" type="audio/wav">
         </audio>
