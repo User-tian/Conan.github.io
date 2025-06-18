@@ -16,68 +16,90 @@ During streaming inference, we first feed the entire reference speech into the m
 We use speech from VCTK as the target speaker, and speech from LibriTTS as the source content.
 
 ## VCTK Speakers
-<!-- --- begin copy-paste block --- -->
-<table style="width:100%; border-collapse:collapse; text-align:center;">
+<!-- ── begin copy-paste ───────────────────────────────────────────── -->
+<table style="
+        width:100%;                 /* use the whole page */
+        table-layout:fixed;         /* equal-width columns */
+        border-collapse:collapse;
+        text-align:center;
+        font-family:sans-serif;">
   <thead>
     <tr>
-      <th style="border:1px solid #000;">Content</th>
-      <th style="border:1px solid #000;">Reference</th>
-      <th style="border:1px solid #000;">Results</th>
+      <th style="border:2px solid #000;">Target</th>
+      <th style="border:2px solid #000;">Reference</th>
+      <th style="border:2px solid #000;">Conan&nbsp;Result</th>
+      <th style="border:2px solid #000;">Other&nbsp;Result</th>
     </tr>
   </thead>
 
   <tbody>
-    <!-- first visible row: Target + (Ref / Res #1) -->
+    <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
-      <!-- ①  Target spans the next 3 body rows  -->
-      <td rowspan="3" style="border:1px solid #000; vertical-align:middle;">
-        <!-- replace src with your target audio -->
-        <audio controls style="width:150px;">
+      <!-- Target spans all three reference/result rows -->
+      <td rowspan="3" style="border:2px solid #000; vertical-align:middle;">
+        <audio controls style="width:90%;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/target.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
-      <td style="border:1px solid #000;">
-        <audio controls style="width:150px;">
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
           <source src="wavs/refs/ref1.wav" type="audio/wav">
         </audio>
       </td>
-      <!-- Result #1 -->
-      <td style="border:1px solid #000;">
-        <audio controls style="width:150px;">
-          <source src="wavs/Change_Spks/eg1/full/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
+      <!-- Conan result #1 -->
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
+          <source src="wavs/conan/conv1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <!-- Other model result #1 -->
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
+          <source src="wavs/other/conv1.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
-    <!-- second pair -->
+    <!-- pair #2 -->
     <tr>
-      <td style="border:1px solid #000;">
-        <audio controls style="width:150px;">
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
           <source src="wavs/refs/ref2.wav" type="audio/wav">
         </audio>
       </td>
-      <td style="border:1px solid #000;">
-        <audio controls style="width:150px;">
-          <source src="wavs/Change_Spks/eg1/full/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
+          <source src="wavs/conan/conv2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
+          <source src="wavs/other/conv2.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
-    <!-- third pair -->
+    <!-- pair #3 -->
     <tr>
-      <td style="border:1px solid #000;">
-        <audio controls style="width:150px;">
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
           <source src="wavs/refs/ref3.wav" type="audio/wav">
         </audio>
       </td>
-      <td style="border:1px solid #000;">
-        <audio controls style="width:150px;">
-          <source src="wavs/Change_Spks/eg1/full/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
+          <source src="wavs/conan/conv3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td style="border:2px solid #000;">
+        <audio controls style="width:90%;">
+          <source src="wavs/other/conv3.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
   </tbody>
 </table>
-<!-- --- end copy-paste block --- -->
+<!-- ── end copy-paste ─────────────────────────────────────────────── -->
+
 
 
 ## Target Speaker p231
