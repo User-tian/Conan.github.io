@@ -16,14 +16,16 @@ During streaming inference, we first feed the entire reference speech into the m
 We use speech from VCTK as the target speaker, and speech from LibriTTS as the source content.
 
 ## VCTK Speakers
+
+### Example 1
 <!-- ── begin copy-paste ───────────────────────────────────────────── -->
 <table>
   <thead>
     <tr>
       <th style="text-align: center">Target</th>
       <th style="text-align: center">Reference</th>
-      <th style="text-align: center">Conan&nbsp;Result</th>
-      <th style="text-align: center">Other&nbsp;Result</th>
+      <th style="text-align: center">Conan</th>
+      <th style="text-align: center">Conan (fastest)</th>
     </tr>
   </thead>
 
@@ -33,25 +35,25 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
       <!-- Target spans all three reference/result rows -->
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
         <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
-          <source src="wavs/target.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/refs/ref1.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/p243_005_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Conan result #1 -->
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/conan/conv1.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/full/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Other model result #1 -->
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/other/conv1.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/fastest/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
@@ -59,17 +61,17 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
     <tr>
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/refs/ref2.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/p249_011_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/conan/conv2.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/full/p249_011_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/other/conv2.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/fastest/p249_011_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
@@ -77,17 +79,17 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
     <tr>
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/refs/ref3.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/p302_031_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/conan/conv3.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/full/p302_031_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
         <audio controls style="width: 150px;">
-          <source src="wavs/other/conv3.wav" type="audio/wav">
+          <source src="wavs/Change_Spks/eg1/fastest/p302_031_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
@@ -95,8 +97,85 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
 </table>
 <!-- ── end copy-paste ─────────────────────────────────────────────── -->
 
+### Example 2
+<!-- ── begin copy-paste ───────────────────────────────────────────── -->
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Target</th>
+      <th style="text-align: center">Reference</th>
+      <th style="text-align: center">Conan</th>
+      <th style="text-align: center">Conan (fastest)</th>
+    </tr>
+  </thead>
 
-
+  <tbody>
+    <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
+    <tr>
+      <!-- Target spans all three reference/result rows -->
+      <td rowspan="3" style="text-align: center; vertical-align:middle;">
+        <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
+          <source src="wavs/Change_Spks/eg2/p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <!-- Reference #1 -->
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/p226_006_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <!-- Conan result #1 -->
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/full/p226_006_mic2_p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <!-- Other model result #1 -->
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/fastest/p226_006_mic2_p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <!-- pair #2 -->
+    <tr>
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/p251_109_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/full/p251_109_mic2_p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/fastest/p251_109_mic2_p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <!-- pair #3 -->
+    <tr>
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/p276_004_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/full/p276_004_mic2_p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td style="text-align: center">
+        <audio controls style="width: 150px;">
+          <source src="wavs/Change_Spks/eg2/fastest/p276_004_mic2_p311_012_mic2.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- ── end copy-paste ─────────────────────────────────────────────── -->
 ## Target Speaker p231
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
