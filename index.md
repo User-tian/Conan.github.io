@@ -176,7 +176,7 @@ We first show examples of streaming voice conversion on VCTK dataset.
 
 We then demonstrate the cross-dataset performance of our method. During streaming inference, the entire reference speech is first fed into the model to provide timbre and stylistic information. For chunk-wise online inference, the input is processed once it reaches a predefined chunk size before being passed to the model.
 
-In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires f0 as input; hence, it is excluded from this comparison. All the approaches compared here are fast offline voice conversion methods, which are not designed for streaming inference.
+In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires f0 as input; hence, it is excluded from this comparison. All the approaches compared here are **offline voice conversion methods**, which are not designed for streaming inference.
 
 ## Target Speaker p231
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
@@ -495,7 +495,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -744,7 +744,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table> -->
+</table>
 
 ## Target Speaker p362
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p362_001_002_003.wav" type="audio/wav"> </audio>
@@ -777,7 +777,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -1026,7 +1026,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table> -->
+</table>
 
 ## Target Speaker p360
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
