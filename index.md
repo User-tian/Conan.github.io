@@ -11,11 +11,7 @@ To address these challenges, we introduce Conan, a chunkwise online zero-shot vo
 
 
 # Samples
-During streaming inference, we first feed the entire reference speech into the model to provide timbre and stylistic information. During chunk-wise online inference, we wait until the input reaches a predefined chunk size before passing it to the model. 
-
-We use speech from VCTK as the target speaker, and speech from LibriTTS as the source content.
-
-## VCTK Speakers
+We first show examples of streaming voice conversion on VCTK dataset.
 
 ### Example 1
 <!-- ── begin copy-paste ───────────────────────────────────────────── -->
@@ -180,7 +176,7 @@ We use speech from VCTK as the target speaker, and speech from LibriTTS as the s
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 
-<ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
+<!-- <ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -285,7 +281,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/4.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/4.wav" type="au/dio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/4.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/4.wav" type="audio/wav"></audio></td>
@@ -293,7 +289,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/4.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
 <ruby>Text: He shrugged his shoulders in ungracious acquiescence, while our visitor in hurried words and with much excitable gesticulation poured forth his story.</ruby>
 <table>
@@ -302,7 +298,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<th style="text-align: center">Source</th>
 			<th style="text-align: center">Conan</th>
 			<th style="text-align: center">Conan (fastest)</th>
-			<th style="text-align: center">StreamVC</th>
+			<!-- <th style="text-align: center">StreamVC</th> -->
 			<th style="text-align: center">QuickVC</th>
 			<th style="text-align: center">DiffVC</th>
 			<th style="text-align: center">VQMIVC</th>
@@ -314,7 +310,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/5.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/StreamVC/5.wav" type="audio/wav"></audio></td> -->
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/5.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/5.wav" type="audio/wav"></audio></td>
@@ -323,7 +319,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby>Text: The South she had not thought of seriously; and yet, knowing of its delightful hospitality and mild climate, she was not averse to Charleston or New Orleans..</ruby>
+<!-- <ruby>Text: The South she had not thought of seriously; and yet, knowing of its delightful hospitality and mild climate, she was not averse to Charleston or New Orleans..</ruby>
 <table>
 	<thead>
 		<tr>
@@ -460,8 +456,11 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
+We then demonstrate the cross-dataset performance of our method. During streaming inference, the entire reference speech is first fed into the model to provide timbre and stylistic information. For chunk-wise online inference, the input is processed once it reaches a predefined chunk size before being passed to the model.
+
+In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires $f_0$ as input; hence, it is excluded from this comparison.
 
 ## Target Speaker p334
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p334_001_002_003.wav" type="audio/wav"> </audio>
@@ -473,7 +472,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<th style="text-align: center">Source</th>
             <th style="text-align: center">Conan</th>
 			<th style="text-align: center">Conan (fastest)</th>
-			<th style="text-align: center">StreamVC</th>
+			<!-- <th style="text-align: center">StreamVC</th> -->
             <th style="text-align: center">QuickVC</th>
 			<th style="text-align: center">DiffVC</th>
 			<th style="text-align: center">VQMIVC</th>
@@ -485,7 +484,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/Conan/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/Conan_fastest/1.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/StreamVC/1.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/StreamVC/1.wav" type="audio/wav"></audio></td> -->
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/QuickVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/DiffVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/VQMIVC/1.wav" type="audio/wav"></audio></td>
@@ -494,7 +493,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -743,7 +742,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
 ## Target Speaker p362
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p362_001_002_003.wav" type="audio/wav"> </audio>
@@ -755,7 +754,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<th style="text-align: center">Source</th>
             <th style="text-align: center">Conan</th>
 			<th style="text-align: center">Conan (fastest)</th>
-			<th style="text-align: center">StreamVC</th>
+			<!-- <th style="text-align: center">StreamVC</th> -->
             <th style="text-align: center">QuickVC</th>
 			<th style="text-align: center">DiffVC</th>
 			<th style="text-align: center">VQMIVC</th>
@@ -767,7 +766,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/Conan/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/Conan_fastest/1.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/StreamVC/1.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/StreamVC/1.wav" type="audio/wav"></audio></td> -->
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/QuickVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/DiffVC/1.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/VQMIVC/1.wav" type="audio/wav"></audio></td>
@@ -776,7 +775,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -1025,12 +1024,12 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
 ## Target Speaker p360
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
 
-<ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
+<!-- <ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -1252,7 +1251,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/PPGVC/8.wav"  type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 <ruby>Text: He examines the horizon all round with his glass, and folds his arms with the air of an injured man.</ruby>
 <table>
 	<thead>
@@ -1260,7 +1259,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<th style="text-align: center">Source</th>
 			<th style="text-align: center">Conan</th>
 			<th style="text-align: center">Conan (fastest)</th>
-			<th style="text-align: center">StreamVC</th>
+			<!-- <th style="text-align: center">StreamVC</th> -->
 			<th style="text-align: center">QuickVC</th>
 			<th style="text-align: center">DiffVC</th>
 			<th style="text-align: center">VQMIVC</th>
@@ -1272,7 +1271,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/Conan/9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/Conan_fastest/9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/StreamVC/9.wav" type="audio/wav"></audio></td>
+			<!-- <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/StreamVC/9.wav" type="audio/wav"></audio></td> -->
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/QuickVC/9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/DiffVC/9.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/VQMIVC/9.wav" type="audio/wav"></audio></td>
@@ -1281,7 +1280,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby> Text: In order to please her, I spoke to her of the Abbe Conti, and I had occasion to quote two lines of that profound writer.</ruby>
+<!-- <ruby> Text: In order to please her, I spoke to her of the Abbe Conti, and I had occasion to quote two lines of that profound writer.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -1307,4 +1306,4 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
