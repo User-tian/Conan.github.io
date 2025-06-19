@@ -172,6 +172,12 @@ We first show examples of streaming voice conversion on VCTK dataset.
   </tbody>
 </table>
 <!-- ── end copy-paste ─────────────────────────────────────────────── -->
+
+
+We then demonstrate the cross-dataset performance of our method. During streaming inference, the entire reference speech is first fed into the model to provide timbre and stylistic information. For chunk-wise online inference, the input is processed once it reaches a predefined chunk size before being passed to the model.
+
+In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires $f_0$ as input; hence, it is excluded from this comparison.
+
 ## Target Speaker p231
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
@@ -457,10 +463,6 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 		</tr>
 	</tbody>
 </table> -->
-
-We then demonstrate the cross-dataset performance of our method. During streaming inference, the entire reference speech is first fed into the model to provide timbre and stylistic information. For chunk-wise online inference, the input is processed once it reaches a predefined chunk size before being passed to the model.
-
-In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires $f_0$ as input; hence, it is excluded from this comparison.
 
 ## Target Speaker p334
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p334_001_002_003.wav" type="audio/wav"> </audio>
