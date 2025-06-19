@@ -182,7 +182,7 @@ In this experiment, speech from VCTK is used as the target speaker, while speech
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 
-<!-- <ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
+<ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -212,7 +212,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 </table>
 
 
-<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -495,7 +495,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -744,7 +744,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p334/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
 ## Target Speaker p362
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p362_001_002_003.wav" type="audio/wav"> </audio>
@@ -777,7 +777,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -1026,12 +1026,12 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p362/PPGVC/10.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
 ## Target Speaker p360
 Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
 
-<!-- <ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
+<ruby>Text: He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. Stuff it into you, his belly counselled him.</ruby>
 <table>
 	<thead>
 		<tr>
@@ -1059,7 +1059,7 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-<ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
+<!-- <ruby>Text: You see how doubly, how intimately, opposed the ideas are; yet how difficult to explain without apparent contradiction.</ruby>
 <table>
 	<thead>
 		<tr>
